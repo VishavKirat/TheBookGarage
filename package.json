@@ -1,0 +1,23 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "this is a bookstore application",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^0.2.10",
+    "surge": "^0.18.0",
+    "express": "^3.2.6",
+    "socket.io": "^0.9.17"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "vishavkiratsingh@gmail.com"
+  },
+  "author": "Vishav K. Singh",
+  "license": "ISC"
+}

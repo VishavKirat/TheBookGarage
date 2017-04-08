@@ -1,0 +1,40 @@
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+	<title>Online Book Store - All Books</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body onload="booksTable()">
+	<div class="container">
+		 <div class="logo">
+            <img src="Logomakr_8exgwz.png" alt="">
+       </div>
+		<nav class="navbar">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="books.html">Books</a></li>
+				<li><a href="#">Records</a></li>
+			</ul>
+		</nav>
+		<div class="content">
+			<h3>Showing All Books
+			<div class="pull-right"><a href="addBook.html"><button id="add">Add Book</button></a></div></h3>
+			<table  class="table">
+				<thead>
+					<tr>
+						<th>#ID</th>
+						<th>Title</th>
+						<th>Publisher</th>
+						<th>Author</th>
+					</tr>
+				</thead>
+				<tbody id="books-body">
+					
+				</tbody>
+				
+			</table>
+		</div>
+	</div>
+	<script src="app.js"></script>
+</body>
+</html>
